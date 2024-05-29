@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Column(
                     children: [
                       Icon(Icons.male, size: height/7,color: Colors.white,),
-                      Text("Male", style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold),)
+                      Expanded(child: Text("Male", style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold),))
                     ],
                   ),
                   height: 150,
@@ -103,7 +103,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Column(
                     children: [
                       Icon(Icons.female,size: height/7,color: Colors.white,),
-                      Text("Female",style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold),)
+                      Expanded(child: Text("Female",style: TextStyle(color: Colors.white,fontSize: 30,fontWeight: FontWeight.bold),))
                     ],
                   ),
                   height: 150,
